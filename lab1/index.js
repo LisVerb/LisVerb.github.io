@@ -18,4 +18,4 @@ let askAboutMovie =()=>{
 }
 personalMovieDB.movies = {...personalMovieDB.movies, ...askAboutMovie()}
 personalMovieDB.movies = {...personalMovieDB.movies, ...askAboutMovie()}
-console.log(personalMovieDB);
+console.log(personalMovieDB)
