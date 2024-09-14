@@ -9,7 +9,7 @@ let askAboutMovie =()=>{
     let movie =""; 
     let rate = "";
     
-    while(!movie || !rate || movie.length>50){
+    while(!movie.trim() || !rate.trim() || movie.length>50){
         movie = prompt("Один из последних просмотренных фильмов?");
         rate = prompt("На сколько оцените его?");
     }
